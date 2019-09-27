@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FB1EE2233D7E3F00DCC6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB1EE1233D7E3F00DCC6BE /* AppDelegate.swift */; };
+		05FB1EE4233D7E3F00DCC6BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB1EE3233D7E3F00DCC6BE /* SceneDelegate.swift */; };
+		05FB1EE6233D7E3F00DCC6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB1EE5233D7E3F00DCC6BE /* ViewController.swift */; };
+		05FB1EE9233D7E3F00DCC6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FB1EE7233D7E3F00DCC6BE /* Main.storyboard */; };
+		05FB1EEB233D7E4000DCC6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB1EEA233D7E4000DCC6BE /* Assets.xcassets */; };
+		05FB1EEE233D7E4000DCC6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FB1EEC233D7E4000DCC6BE /* LaunchScreen.storyboard */; };
+		05FB1EF9233D7E4000DCC6BE /* Easy_BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB1EF8233D7E4000DCC6BE /* Easy_BrowserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05FB1EF5233D7E4000DCC6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FB1ED6233D7E3F00DCC6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FB1EDD233D7E3F00DCC6BE;
+			remoteInfo = "Easy Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FB1EDE233D7E3F00DCC6BE /* Easy Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FB1EE1233D7E3F00DCC6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05FB1EE3233D7E3F00DCC6BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05FB1EE5233D7E3F00DCC6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05FB1EE8233D7E3F00DCC6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05FB1EEA233D7E4000DCC6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FB1EED233D7E4000DCC6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05FB1EEF233D7E4000DCC6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FB1EF4233D7E4000DCC6BE /* Easy BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FB1EF8233D7E4000DCC6BE /* Easy_BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_BrowserUITests.swift; sourceTree = "<group>"; };
+		05FB1EFA233D7E4000DCC6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FB1EDB233D7E3F00DCC6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB1EF1233D7E4000DCC6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FB1ED5233D7E3F00DCC6BE = {
+			isa = PBXGroup;
+			children = (
+				05FB1EE0233D7E3F00DCC6BE /* Easy Browser */,
+				05FB1EF7233D7E4000DCC6BE /* Easy BrowserUITests */,
+				05FB1EDF233D7E3F00DCC6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FB1EDF233D7E3F00DCC6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FB1EDE233D7E3F00DCC6BE /* Easy Browser.app */,
+				05FB1EF4233D7E4000DCC6BE /* Easy BrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FB1EE0233D7E3F00DCC6BE /* Easy Browser */ = {
+			isa = PBXGroup;
+			children = (
+				05FB1EE1233D7E3F00DCC6BE /* AppDelegate.swift */,
+				05FB1EE3233D7E3F00DCC6BE /* SceneDelegate.swift */,
+				05FB1EE5233D7E3F00DCC6BE /* ViewController.swift */,
+				05FB1EE7233D7E3F00DCC6BE /* Main.storyboard */,
+				05FB1EEA233D7E4000DCC6BE /* Assets.xcassets */,
+				05FB1EEC233D7E4000DCC6BE /* LaunchScreen.storyboard */,
+				05FB1EEF233D7E4000DCC6BE /* Info.plist */,
+			);
+			path = "Easy Browser";
+			sourceTree = "<group>";
+		};
+		05FB1EF7233D7E4000DCC6BE /* Easy BrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05FB1EF8233D7E4000DCC6BE /* Easy_BrowserUITests.swift */,
+				05FB1EFA233D7E4000DCC6BE /* Info.plist */,
+			);
+			path = "Easy BrowserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05FB1EDD233D7E3F00DCC6BE /* Easy Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FB1EFD233D7E4000DCC6BE /* Build configuration list for PBXNativeTarget "Easy Browser" */;
+			buildPhases = (
+				05FB1EDA233D7E3F00DCC6BE /* Sources */,
+				05FB1EDB233D7E3F00DCC6BE /* Frameworks */,
+				05FB1EDC233D7E3F00DCC6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Browser";
+			productName = "Easy Browser";
+			productReference = 05FB1EDE233D7E3F00DCC6BE /* Easy Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05FB1EF3233D7E4000DCC6BE /* Easy BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FB1F00233D7E4000DCC6BE /* Build configuration list for PBXNativeTarget "Easy BrowserUITests" */;
+			buildPhases = (
+				05FB1EF0233D7E4000DCC6BE /* Sources */,
+				05FB1EF1233D7E4000DCC6BE /* Frameworks */,
+				05FB1EF2233D7E4000DCC6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FB1EF6233D7E4000DCC6BE /* PBXTargetDependency */,
+			);
+			name = "Easy BrowserUITests";
+			productName = "Easy BrowserUITests";
+			productReference = 05FB1EF4233D7E4000DCC6BE /* Easy BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FB1ED6233D7E3F00DCC6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Eugene Berezin";
+				TargetAttributes = {
+					05FB1EDD233D7E3F00DCC6BE = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					05FB1EF3233D7E4000DCC6BE = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 05FB1EDD233D7E3F00DCC6BE;
+					};
+				};
+			};
+			buildConfigurationList = 05FB1ED9233D7E3F00DCC6BE /* Build configuration list for PBXProject "Easy Browser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FB1ED5233D7E3F00DCC6BE;
+			productRefGroup = 05FB1EDF233D7E3F00DCC6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FB1EDD233D7E3F00DCC6BE /* Easy Browser */,
+				05FB1EF3233D7E4000DCC6BE /* Easy BrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FB1EDC233D7E3F00DCC6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FB1EEE233D7E4000DCC6BE /* LaunchScreen.storyboard in Resources */,
+				05FB1EEB233D7E4000DCC6BE /* Assets.xcassets in Resources */,
+				05FB1EE9233D7E3F00DCC6BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB1EF2233D7E4000DCC6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FB1EDA233D7E3F00DCC6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FB1EE6233D7E3F00DCC6BE /* ViewController.swift in Sources */,
+				05FB1EE2233D7E3F00DCC6BE /* AppDelegate.swift in Sources */,
+				05FB1EE4233D7E3F00DCC6BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB1EF0233D7E4000DCC6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FB1EF9233D7E4000DCC6BE /* Easy_BrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05FB1EF6233D7E4000DCC6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FB1EDD233D7E3F00DCC6BE /* Easy Browser */;
+			targetProxy = 05FB1EF5233D7E4000DCC6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05FB1EE7233D7E3F00DCC6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FB1EE8233D7E3F00DCC6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05FB1EEC233D7E4000DCC6BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FB1EED233D7E4000DCC6BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05FB1EFB233D7E4000DCC6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05FB1EFC233D7E4000DCC6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05FB1EFE233D7E4000DCC6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = "Easy Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.easyBrowserEB.Easy-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FB1EFF233D7E4000DCC6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = "Easy Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.easyBrowserEB.Easy-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05FB1F01233D7E4000DCC6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = "Easy BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.easyBrowserEB.Easy-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy Browser";
+			};
+			name = Debug;
+		};
+		05FB1F02233D7E4000DCC6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = "Easy BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.easyBrowserEB.Easy-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FB1ED9233D7E3F00DCC6BE /* Build configuration list for PBXProject "Easy Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FB1EFB233D7E4000DCC6BE /* Debug */,
+				05FB1EFC233D7E4000DCC6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FB1EFD233D7E4000DCC6BE /* Build configuration list for PBXNativeTarget "Easy Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FB1EFE233D7E4000DCC6BE /* Debug */,
+				05FB1EFF233D7E4000DCC6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FB1F00233D7E4000DCC6BE /* Build configuration list for PBXNativeTarget "Easy BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FB1F01233D7E4000DCC6BE /* Debug */,
+				05FB1F02233D7E4000DCC6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FB1ED6233D7E3F00DCC6BE /* Project object */;
+}
